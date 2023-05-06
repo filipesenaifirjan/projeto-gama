@@ -153,7 +153,7 @@
   /* dindin-logo-white (1) 2 */
 position:absolute;
 
-right:1260%;
+right:1080%;
 top: -39px;
 width: 110px; /* define a largura da imagem em 200 pixels */
 height: auto;
@@ -164,7 +164,7 @@ height: auto;
   /* dindin */
 position: absolute;
 
-right: 1079%;
+right: 870%;
 top: -25px;
 bottom: 43.48%;
 
@@ -184,7 +184,7 @@ color: #FFFFFF;
 text-transform: capitalize;
 position: absolute;
 
-right: 1130%;
+right: 920%;
 
 
 font-family: 'Ubuntu';
