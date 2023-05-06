@@ -1,3 +1,21 @@
+body.dark-mode {
+  background-color: #1F1F1F;
+  color: #FFFFFF;
+}
+body.dark-mode nav {
+  color: #fff;
+  background-color: #333;
+}
+
+body.dark-mode footer {
+  color: #fff;
+  background-color: #222;
+}
+#modo-escuro {
+  
+  border-radius: 10%;
+  margin: 125px;
+}
 
  /* header */
 header {
