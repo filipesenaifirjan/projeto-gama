@@ -1,7 +1,86 @@
+ body{
+  margin: 0;
+  padding: 0;
+ }
+
+ h1{
+font-family: Ubuntu;
+font-size: 60px;
+font-weight:700;
+line-height: 69px;
+letter-spacing: 0em;
+text-align: left;
+color: #ff4081;
+}
+h5{
+  font-family: Ubuntu;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+}
+h2{
+  font-family: Ubuntu;
+font-size: 35px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+color: #ff4081;
+}
+
+p{
+font-family: Ubuntu;
+font-size: 18px;
+font-weight: 300;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+}
+
+button{
+  height: 51px;
+  width: 233px;
+  left: 545px;
+  top: 1199px;
+  border-radius: 62px;
+  color: #FFFFFF ;
+  border: none;
+  background-color: #2E948A;
+
+}
+
+ .pagecurso{
+  width: 90%;
+  margin: 5%;
+ }
+ .educacao{
+  display: flex;
+  padding-bottom: 68px;
+  border-bottom: 5px solid #c4c4c4;
+  margin-top: 68px;
+ }
+ .tres{
+  border: none;
+ }
+ .ilustracao{
+  width: 30%;
+  display: flex;
+ }
+ .ilustracao img{
+  width: 100%;
+ }
+ .textilustra{
+  width: 60%;
+  margin-left: 8%;
+ }
+
  /* header */
  header {
    
-    position: absolute;
+    /* position: absolute; */
     width: 100%; /* assim que estava= 1440px */
     height: 117px;
     left: 0px;
