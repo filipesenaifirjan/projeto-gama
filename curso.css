@@ -1,0 +1,356 @@
+ body{
+  margin: 0;
+  padding: 0;
+ }
+ .iniciantes{
+display: flex;
+margin:auto ;
+padding: 0 12%;
+
+ }
+ .textoPrincipal{
+  text-align: justify;
+  width: 45%;
+  margin-right: 6%;
+ }
+
+ h1{
+font-family: Ubuntu;
+font-size: 60px;
+font-weight:700;
+line-height: 69px;
+letter-spacing: 0em;
+text-align: left;
+color: #ff4081;
+}
+h5{
+  font-family: Ubuntu;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+}
+h2{
+  height: 40px;
+  width: 512px;
+  left: 751px;
+  top: 734px;
+  border-radius: nullpx;
+  color:#ff4081;  
+}
+
+p{
+font-family: Ubuntu;
+font-size: 18px;
+font-weight: 300;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+}
+
+ .pagecurso2{
+  width: 90%;
+  margin: 5%;
+ }
+
+ .educacao2{
+  display: flex;
+  padding: 40px 12%;
+  border-bottom: 3px solid #c4c4c4;
+  margin-top: 12px;
+  width: 1050px;
+  height: 261px;
+  left: 213px;
+  top: 734px;
+}
+
+ .aulas{
+background-color: #f7f7f7;
+height: 1235px;
+width: 1440px;
+left: 0px;
+top: 659px;
+border-radius: 0px;
+
+ }
+ .aula3{
+  border: none;
+ }
+ .videoAula{
+  width: 40%;
+  display: flex;
+ }
+ .videoAula iframe{
+height: 261px;
+width: 462px;
+left: 213px;
+top: 734px;
+border-width: 0px;
+
+
+ }
+ .textVideo{
+  width: 60%;
+  margin-left: 8%;
+ }
+
+ /* header */
+ header {
+   
+    /* position: absolute; */
+    width: 100%; /* assim que estava= 1440px */
+    height: 117px;
+    left: 0px;
+    top: 0px;
+    
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    }
+    /* dindin-logo-white (1) 2 */
+    .dindin-logo {
+    
+    position: absolute;
+    width: 69px;
+    height: 71px;
+    left: 82px;
+    top: 20px;
+    
+     /*background: url(dindin-logo-white (1).png); */
+    }
+    /* dindin */
+    .dindin {
+       
+    position: absolute;
+    width: 164px;
+    height: 64px;
+    left: 162px;
+    top: 33px;
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 64px;
+    
+    color: #FFFFFF;
+    }
+    
+    .home {
+      text-decoration: none;
+  position: absolute;
+  width: 80px;
+  height: 23px;
+  left: 930px;
+  top: 47px;
+  
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+  
+  text-transform: uppercase;
+  
+  color: #FDFDFD;
+  }
+  
+
+    /* CURSOS */
+    .cursos {
+        text-decoration: none;
+    position: absolute;
+    width: 80px;
+    height: 23px;
+    left: 1028px;
+    top: 47px;
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #FDFDFD;
+    }
+      /* blog */
+    .blog {
+     
+        text-decoration: none;
+    position: absolute;
+    width: 55px;
+    height: 23px;
+    left: 1150px;
+    top: 47px;
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #FDFDFD;
+    }
+    
+    
+     /* contato */
+    .contato {
+       
+     text-decoration: none;
+    position: absolute;
+    width: 95px;
+    height: 23px;
+    left: 1242px;
+    top: 47px;
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #FDFDFD;
+    }
+    
+    .texto-banner{
+    /* Texto Banner */
+    
+    
+    position: absolute;
+    width: 488px;
+    height: 386px;
+    left: 206px;
+    top: 242px;
+    
+    
+    }
+    
+    /* Rectangle 19 footer */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #2E948A;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+.footer .dindin-logo-footer {
+  /* dindin-logo-white (1) 2 */
+position:absolute;
+
+right:1080%;
+top: -39px;
+width: 110px; /* define a largura da imagem em 200 pixels */
+height: auto;
+
+/*background: url(dindin-logo-white (1).png);*/
+}
+.footer  .dindin-footer {
+  /* dindin */
+position: absolute;
+
+right: 870%;
+top: -25px;
+bottom: 43.48%;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 66px;
+line-height: 76px;
+
+color: #FFFFFF;
+
+}
+.footer .frase-dindin {
+ 
+  /* educação financeira */
+
+text-transform: capitalize;
+position: absolute;
+
+right: 920%;
+
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 300;
+font-size: 19px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+top: 10px;
+}
+
+
+.menu-footer {
+
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-footer ul {
+  list-style: none;
+  
+}
+
+.menu-footer ul a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+}
+
+ .button{
+  /* Rectangle 12 */
+
+
+box-sizing: border-box;
+color:#FFFFFF;
+position: absolute;
+left: 70.42%;
+right: 9.51%;
+top: 24.15%;
+bottom: 51.21%;
+background-color: transparent;
+border: 2px solid #FFFFFF;
+border-radius: 62px;
+font-size: medium;
+ }
+
+ .buttondois{
+  /* Rectangle 12 */
+
+
+box-sizing: border-box;
+color:#FFFFFF;
+position: absolute;
+left: 70.42%;
+right: 9.51%;
+top: 55.07%;
+bottom: 20.29%;
+background-color: transparent;
+border: 2px solid #FFFFFF;
+border-radius: 62px;
+font-size: medium;
+ }
+
